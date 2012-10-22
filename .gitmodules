@@ -1,0 +1,6 @@
+[submodule "submodules/bootswatch"]
+	path = submodules/bootswatch
+	url = https://github.com/thomaspark/bootswatch.git
+[submodule "submodules/bootstrap"]
+	path = submodules/bootstrap
+	url = https://github.com/andrewalker/bootstrap.git
