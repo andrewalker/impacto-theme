@@ -1,7 +1,7 @@
 INPUT_PATH                = ./submodules/bootstrap
 OUTPUT_PATH               = ./result
-BOOTSTRAP_LESS            = ./swatchmaker/swatchmaker.less
-BOOTSTRAP_RESPONSIVE_LESS = ./swatchmaker/swatchmaker-responsive.less
+BOOTSTRAP_LESS            = ./assembler/swatchmaker.less
+BOOTSTRAP_RESPONSIVE_LESS = ./assembler/swatchmaker-responsive.less
 
 bootstrap:
 	mkdir -p ${OUTPUT_PATH}/img
