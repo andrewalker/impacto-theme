@@ -13,7 +13,9 @@ build:
 	@mkdir -p ${OUTPUT_PATH}/img
 	@mkdir -p ${OUTPUT_PATH}/css
 	@mkdir -p ${OUTPUT_PATH}/js
+	@mkdir -p ${OUTPUT_PATH}/font
 	@cp ${INPUT_PATH}/img/* ${OUTPUT_PATH}/img/
+	@cp ${INPUT_PATH}/assets/font-awesome/font/* ${OUTPUT_PATH}/font/
 	@echo -en "Compiling LESS with Recess..."
 	@recess --compile  ${BOOTSTRAP_LESS} > ${OUTPUT_PATH}/css/bootstrap.css
 	@recess --compress ${BOOTSTRAP_LESS} > ${OUTPUT_PATH}/css/bootstrap.min.css
