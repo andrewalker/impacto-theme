@@ -1,8 +1,32 @@
+=encoding UTF-8
+
 =head1 ICTUM BOOTSWATCH THEME
 
-This theme is heavily based on L<Spacelab|http://bootswatch.com/spacelab/>.
+This theme is heavily based on L<spacelab|http://bootswatch.com/spacelab/>.
 
-=head1 CREDITS
+=head2 Rationale
+
+I created this so that I could have a customized version of Twitter Bootstrap,
+using Font Awesome and maybe other tweakings (such as remove unnecessary js,
+etc), and also customize the SpaceLab theme from @thomaspark. Currently, I only
+increased the font size, and automated the build process, but there might be
+other improvements over time.
+
+=head2 Install
+
+Like bootstrap, this theme requires: recess, connect, uglify.js, and jshint.
+
+    $ npm install recess connect uglify-js jshint -g
+
+Then, simply run make.
+
+=head2 Disclaimer
+
+This theme is created for a specific application, and may or may not suit your
+needs. I probably won't make very generally useful code here. I'm making it
+available in case it might help others.
+
+=head2 Credits
 
 Special thanks to:
 
@@ -14,7 +38,7 @@ Special thanks to:
 
 =back
 
-=head1 COPYRIGHT AND LICENSE
+=head2 Copyright and License
 
 Copyright 2012 André Walker.
 
