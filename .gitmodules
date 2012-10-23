@@ -4,3 +4,6 @@
 [submodule "submodules/bootstrap"]
 	path = submodules/bootstrap
 	url = https://github.com/andrewalker/bootstrap.git
+[submodule "submodules/swatch"]
+	path = submodules/swatch
+	url = https://github.com/thomaspark/bootswatch.git
