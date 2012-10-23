@@ -1,6 +1,6 @@
-[submodule "submodules/bootstrap"]
-	path = submodules/bootstrap
+[submodule "ext/bootstrap"]
+	path = ext/bootstrap
 	url = https://github.com/andrewalker/bootstrap.git
-[submodule "submodules/swatch"]
-	path = submodules/swatch
+[submodule "ext/swatch"]
+	path = ext/swatch
 	url = https://github.com/thomaspark/bootswatch.git

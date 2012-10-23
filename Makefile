@@ -1,4 +1,4 @@
-INPUT_PATH                = ./submodules/bootstrap
+INPUT_PATH                = ./ext/bootstrap
 OUTPUT_PATH               = ./result
 BOOTSTRAP_LESS            = ./assembler/swatchmaker.less
 BOOTSTRAP_RESPONSIVE_LESS = ./assembler/swatchmaker-responsive.less
