@@ -1,0 +1,5 @@
+This directory could have a structure similar to the bootstrap's directory,
+i.e. have img and js subdirectories and corresponding files. Currently, we only
+have less.
+
+If those files are added here, the Makefile will have to be changed.
